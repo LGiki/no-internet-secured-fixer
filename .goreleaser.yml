@@ -1,0 +1,23 @@
+project_name: NoInternetSecuredFixer
+
+env:
+  - CGO_ENABLED=0
+
+builds:
+  - main: ./
+    binary: NoInternetSecuredFixer
+    goos:
+      - windows
+    goarch:
+      - amd64
+    flags:
+      - -trimpath
+
+checksum:
+  name_template: 'checksums.txt'
+
+snapshot:
+  name_template: "{{ incpatch .Tag }}"
+
+changelog:
+  sort: asc
