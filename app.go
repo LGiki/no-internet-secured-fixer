@@ -94,6 +94,7 @@ func setNCSIRegistriesAutomatically() {
 		log.Fatalln("Failed to set system NCSI registry.")
 	}
 	log.Println(fmt.Sprintf("Successfully set system NCSI registry to %s.", server.Name))
+	log.Println("Please disable and re-enable your internet connection or restart your computer to apply the changes.")
 }
 
 func setNCSIRegistriesManuallyWithLatency() {
@@ -181,6 +182,8 @@ func printManualChooseServerMenu() {
 	for index, server := range servers {
 		fmt.Println(fmt.Sprintf("%d. %s", index+1, server.Name))
 	}
+	fmt.Println("------------------------------------")
+	fmt.Println("")
 }
 
 func manualChooseServer() {
@@ -196,7 +199,8 @@ func manualChooseServer() {
 	if err != nil {
 		log.Fatalln("Failed to set system NCSI registry.")
 	}
-	fmt.Println(fmt.Sprintf("Successfully set system NCSI registry to %s.", server.Name))
+	log.Println(fmt.Sprintf("Successfully set system NCSI registry to %s.", server.Name))
+	log.Println("Please disable and re-enable your internet connection or restart your computer to apply the changes.")
 }
 
 func main() {
