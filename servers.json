@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Microsoft",
+    "activeWebProbeHost": "www.msftconnecttest.com",
+    "activeWebProbePath": "connecttest.txt",
+    "activeWebProbeContent": "Microsoft Connect Test",
+    "activeWebProbeHostV6": "ipv6.msftconnecttest.com",
+    "activeWebProbePathV6": "connecttest.txt",
+    "ActiveWebProbeContentV6": "Microsoft Connect Test",
+    "activeDnsProbeHost": "dns.msftncsi.com",
+    "activeDnsProbeContent": "131.107.255.255",
+    "activeDnsProbeHostV6": "dns.msftncsi.com",
+    "activeDnsProbeContentV6": "fd3e:4f5a:5b81::1"
+  },
+  {
+    "name": "Debian",
+    "activeWebProbeHost": "network-test.debian.org",
+    "activeWebProbePath": "nm",
+    "activeWebProbeContent": "NetworkManager is online\n",
+    "activeWebProbeHostV6": "network-test.debian.org",
+    "activeWebProbePathV6": "nm",
+    "ActiveWebProbeContentV6": "NetworkManager is online\n",
+    "activeDnsProbeHost": "resolver1.opendns.com",
+    "activeDnsProbeContent": "208.67.222.222",
+    "activeDnsProbeHostV6": "resolver1.opendns.com",
+    "activeDnsProbeContentV6": "2620:119:35::35"
+  },
+  {
+    "name": "Manjaro",
+    "activeWebProbeHost": "ping.manjaro.org",
+    "activeWebProbePath": "check_network_status.txt",
+    "activeWebProbeContent": "NetworkManager is online",
+    "activeWebProbeHostV6": "ping.manjaro.org",
+    "activeWebProbePathV6": "check_network_status.txt",
+    "ActiveWebProbeContentV6": "NetworkManager is online",
+    "activeDnsProbeHost": "resolver1.opendns.com",
+    "activeDnsProbeContent": "208.67.222.222",
+    "activeDnsProbeHostV6": "resolver1.opendns.com",
+    "activeDnsProbeContentV6": "2620:119:35::35"
+  },
+  {
+    "name": "Fedora",
+    "activeWebProbeHost": "fedoraproject.org",
+    "activeWebProbePath": "static/hotspot.txt",
+    "activeWebProbeContent": "OK",
+    "activeWebProbeHostV6": "fedoraproject.org",
+    "activeWebProbePathV6": "static/hotspot.txt",
+    "ActiveWebProbeContentV6": "OK",
+    "activeDnsProbeHost": "resolver1.opendns.com",
+    "activeDnsProbeContent": "208.67.222.222",
+    "activeDnsProbeHostV6": "resolver1.opendns.com",
+    "activeDnsProbeContentV6": "2620:119:35::35"
+  },
+  {
+    "name": "Firefox",
+    "activeWebProbeHost": "detectportal.firefox.com",
+    "activeWebProbePath": "success.txt",
+    "activeWebProbeContent": "success\n",
+    "activeWebProbeHostV6": "detectportal.firefox.com",
+    "activeWebProbePathV6": "success.txt",
+    "ActiveWebProbeContentV6": "success\n",
+    "activeDnsProbeHost": "resolver1.opendns.com",
+    "activeDnsProbeContent": "208.67.222.222",
+    "activeDnsProbeHostV6": "resolver1.opendns.com",
+    "activeDnsProbeContentV6": "2620:119:35::35"
+  }
+]
