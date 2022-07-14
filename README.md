@@ -6,7 +6,7 @@
 
 Windows often shows `No Internet, secured` when the network connection is working fine. Some applications rely on the network status reported by Windows to determine if the network connection is available, such as Spotify, which won't let me play any songs when Windows reports "No Internet, secured". And if Windows thinks there is no internet connection, I can't turn on the hotspot. This is very annoying.
 
-The main cause of this problem is Windows' Network Connectivity Status Indicator (NCSI). By default, NCSI sends HTTP requests and DNS requests to Microsoft's servers and checks if the returned results match the results saved in the registry, and if they do, the network is considered normal. 
+The main cause of this problem is Windows' [Network Connectivity Status Indicator (NCSI)](https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/internet-explorer-edge-open-connect-corporate-public-network). By default, NCSI sends HTTP requests and DNS requests to Microsoft's servers and checks if the returned results match the results saved in the registry, and if they do, the network is considered normal. 
 
 However, this process may not always work due to server instability or other complex reasons, and when NCSI cannot get the correct response, it assumes that there is no network connection and causes Windows to display "No Internet, secured". So this program provides some alternative servers to replace the Microsoft servers used by NCSI by default, and you can see all the servers used by this program in the [servers.json](servers.json) file.
 
